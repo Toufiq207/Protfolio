@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
   createRoutesFromElements,
   createBrowserRouter,
@@ -24,7 +25,7 @@ const router = createBrowserRouter(
       path="/"
       element={<Home />}>
       </Route>
-   
+{/*    
    <Route
       path="/about"
       element={<AboutPage />}>
@@ -48,7 +49,7 @@ const router = createBrowserRouter(
       element={<ContactPage />}>
       </Route>
    
-   
+    */}
    
       </>
   )
@@ -58,6 +59,7 @@ const router = createBrowserRouter(
 const App = () => {
   return (
     <RouterProvider router={router} />
+   
   )
 }
 
