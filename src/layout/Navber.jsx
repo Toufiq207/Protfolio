@@ -14,26 +14,28 @@ const Navber = () => {
 <Flex className='justify-between pl-[40px] pr-[40px] items-center'>
 
 <Link to="/"><Navberlist text='Home '/> </Link>   
-{/* <Link to="/about"></Link>
-<Link to="/skills"></Link>
-<Link to="/projects"></Link>
-<Link to="/service"></Link>
-<Link to="/contact"></Link> */}
+
+<Link to="/about"><Navberlist text='About'/></Link>
+<Link to="/skills"><Navberlist text='Skills'/></Link>
+<Link to="/projects"><Navberlist text='Projects'/></Link>
+<Link to="/service"><Navberlist text='Services'/></Link>
+<Link to="/contact"><Navberlist text='Contact'/></Link>
 
 
 
 
 
 
-<Navberlist text='About'/>
 
 
-<Navberlist text='Skills'/>
 
 
-<Navberlist text='Projects'/>
-<Navberlist text='Services'/>
-<Navberlist text='Contact'/>
+
+
+
+
+
+
 <FaGithub />
 </Flex>
         </Container>
