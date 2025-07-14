@@ -35,10 +35,10 @@ const Expreance = () => {
           show ?
 
             <Flex className='flex-col gap-y-[50px] '>
-              <SkillsComp text='95%' img={Html} />
-              <SkillsComp text='90%' img={Css} />
-              <SkillsComp text='85%' img={JavaScript} />
-              <SkillsComp text='80%' img={Tailwind} />
+              <SkillsComp className='w-9/10' text='95%' img={Html} />
+              <SkillsComp className='w-9/10' text='90%' img={Css} />
+              <SkillsComp className='w-8/10' text='85%' img={JavaScript} />
+              <SkillsComp className='w-8/10' text='80%' img={Tailwind} />
 
               {/* <SkillsComp text='95%' img={Css}/> */}
               {/* <SkillsComp text='95%' img={JavaScript}/> */}

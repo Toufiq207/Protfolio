@@ -3,7 +3,7 @@ import Image from './Image'
 
 
 import Flex from './Flex'
-const SkillsComp = ({img,text}) => {
+const SkillsComp = ({img,text,className}) => {
   return (
     <div className='mx-auto'>
 
@@ -12,7 +12,7 @@ const SkillsComp = ({img,text}) => {
 <Flex className='items-center mt-[50px] gap-x-4'>
     <div className='w-[1200px] h-[20px]  border border-black  shadow-xl rounded-2xl '>
 
-      <div className='w-10/12  bg-amber-700 h-full  rounded-2xl'></div>
+      <div className={` bg-amber-700 h-full  rounded-2xl ${className}`}></div>
  
   
 </div>
