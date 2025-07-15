@@ -3,7 +3,7 @@ import Project from '../layout/Project'
 
 const ProjectPage = () => {
   return (
-    <div>
+    <div className='pb-10'>
 
         <Project/>
     </div>

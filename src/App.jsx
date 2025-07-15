@@ -9,9 +9,11 @@ import {
 import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
-import SkillsPage from './pages/SkillsPage';
+
 import ServicePage from './pages/ServicePage';
 import ContactPage from './pages/ContactPage';
+import Expreance from './layout/Expreance';
+import RootPage from './pages/RootPage';
 
 
 
@@ -19,8 +21,12 @@ import ContactPage from './pages/ContactPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <>
-  
+    
+
+   <Route
+      path="/"
+      element={<RootPage/>}>
+        
    <Route
       path="/"
       element={<Home />}>
@@ -38,7 +44,7 @@ const router = createBrowserRouter(
    
    <Route
       path="/skills"
-      element={<SkillsPage />}>
+      element={<Expreance />}>
       </Route>
    <Route
       path="/service"
@@ -50,8 +56,8 @@ const router = createBrowserRouter(
       </Route>
    
    
-   
-      </>
+      </Route>
+    
   )
 );
 
