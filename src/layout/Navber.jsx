@@ -9,7 +9,7 @@ import { FaGithub } from 'react-icons/fa'
 
 const Navber = () => {
   return (
-    <section className='bg-primary py-4 z-10'>
+    <section className='bg-primary py-4 '>
         <Container>
 
 <Flex className='justify-between pl-[40px] pr-[40px] items-center'>
