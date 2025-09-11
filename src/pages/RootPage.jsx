@@ -1,17 +1,15 @@
 import React from 'react'
-import Lizon from '../layout/Lizon'
-import Navber from '../layout/Navber'
 import Footer from '../layout/Footer'
 import { Outlet } from 'react-router-dom'
+import Hero from '../layout/Hero'
 
 const RootPage = () => {
   return (
     <div>
-        <Lizon/>
-        <Navber/>
-<Outlet/>
+      <Hero/>
+      <Outlet />
 
-        <Footer/>
+      <Footer />
     </div>
   )
 }

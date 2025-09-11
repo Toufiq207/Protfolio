@@ -48,9 +48,9 @@ import Heading from '../component/Heading'
 import Container from '../component/Container'
 import Discription from '../component/Discription'
 
-const About = () => {
+const About = ({id}) => {
   return (
-    <section className="pb-12">
+    <section id={id} className="pb-12">
       <Container>
         <Heading text="About Me" className="mb-6" />
 

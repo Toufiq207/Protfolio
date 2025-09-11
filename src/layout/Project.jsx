@@ -6,9 +6,9 @@ import Heading from '../component/Heading'
 import Oribi from '../assets/oribi.PNG'
 import Innovat from '../assets/innovat.PNG'
 
-const Project = () => {
+const Project = ({id}) => {
   return (
-    <section className="py-10">
+    <section id={id} className="py-10">
       <Container>
         <Heading className="pb-6" text="Projects" />
 

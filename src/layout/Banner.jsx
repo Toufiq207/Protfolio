@@ -5,9 +5,9 @@ import BannerOne from '../assets/bannerOne.jpg'
 import Button from '../component/Button'
 import Heading from '../component/Heading'
 
-const Banner = () => {
+const Banner = ({id}) => {
   return (
-    <section className='group relative '>
+    <section id={id} className='group relative '>
       <Container>
 
 

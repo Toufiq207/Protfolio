@@ -68,13 +68,13 @@ import Tailwind from '../assets/tailwind.PNG'
 import Flex from '../component/Flex'
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'
 
-const Expreance = () => {
+const Expreance = ({id}) => {
   const [show, setShow] = useState(false)
 
   const handleShow = () => setShow(!show)
 
   return (
-    <section className="py-12">
+    <section id={id} className="py-12">
       <Container>
         <Heading text="Skills" className="mb-4 text-center" />
 

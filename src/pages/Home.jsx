@@ -7,6 +7,8 @@ import Expreance from '../layout/Expreance'
 
 import Contact from '../layout/Contact'
 import Project from '../layout/Project'
+import Services from '../layout/Services'
+import Container from '../component/Container'
 
 
 
@@ -16,19 +18,18 @@ import Project from '../layout/Project'
 
 const Home = () => {
   return (
-    <div>
-       
-        <Banner/>
-        <About/>
-      
-        <Expreance/>
-<Project/>
-     <Contact/>
-       
-   
-
+   <Container>
+     <div>
+      <Banner id="banner" />
+      <About id="about" />
+      <Expreance id="experience" />
+      <Project id="projects" />
+      <Services id = "services"/>
+      <Contact id="contact" />
     </div>
-  )
-}
+   </Container>
+  );
+};
+
 
 export default Home

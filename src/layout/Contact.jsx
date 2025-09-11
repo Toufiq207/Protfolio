@@ -4,9 +4,9 @@ import Flex from '../component/Flex'
 import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
-const Contact = () => {
+const Contact = ({id}) => {
   return (
-    <section className='pt-10'>
+    <section id={id} className='pt-10'>
         <Container>
             <Flex className='justify-center text-2xl gap-x-5 py-10 '>
               <a href="https://web.facebook.com/toufiq.lizon.barguna" target='_blank'>  <FaFacebook /></a>

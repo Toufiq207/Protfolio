@@ -1,9 +1,9 @@
 import React from 'react'
 import Heading from '../component/Heading'
 
-const Services = () => {
+const Services = ({id}) => {
   return (
-    <div>
+    <div id={id}>
 
 <Heading text='Services'/>
 
