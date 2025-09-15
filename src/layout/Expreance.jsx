@@ -65,6 +65,7 @@ import Html from '../assets/html .png'
 import Css from '../assets/css.webp'
 import JavaScript from '../assets/javaScript.png'
 import Tailwind from '../assets/tailwind.PNG'
+import Reak from '../assets/react.PNG'
 import Flex from '../component/Flex'
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'
 
@@ -95,6 +96,7 @@ const Expreance = ({id}) => {
             <SkillsComp className="w-[95%] sm:w-11/12" text="95%" img={Html} />
             <SkillsComp className="w-[90%] sm:w-10/12" text="90%" img={Css} />
             <SkillsComp className="w-[85%] sm:w-10/12" text="85%" img={JavaScript} />
+            <SkillsComp className="w-[90%] sm:w-10/12" text="85%" img={Reak} />
             <SkillsComp className="w-[80%] sm:w-9/12" text="80%" img={Tailwind} />
           </Flex>
         )}
