@@ -4,9 +4,9 @@ import Container from '../component/Container'
 import Navberlist from '../component/Navberlist'
 import Flex from '../component/Flex'
 <Navberlist text='Contact' />
-import { Link } from 'react-router-dom'
+
 import { FaGithub } from 'react-icons/fa'
-import Lizon from './Lizon'
+
 
 const Navber = () => {
   return (
