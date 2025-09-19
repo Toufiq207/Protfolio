@@ -7,13 +7,13 @@ import Heading from '../component/Heading'
 
 const Banner = ({id}) => {
   return (
-    <section id={id} className='group relative  p-[100px] '>
+    <section id={id} className='group relative  md:pt-[100px] pt-[130px]'>
       <Container>
 
 
 
 
-        <Image className='container' src={BannerOne} />
+        <Image className='w-full ' src={BannerOne} />
         <div className=' w-full bg-[#4f4f5480] opacity-0 group-hover:opacity-100
 absolute top-[40px]  md:top-1/2 left-1/2 transform -translate-x-1/2 md:-translate-y-1/2
 z-10 duration-500 flex flex-col items-center justify-center py-[10px] md:py-[50px] '>
