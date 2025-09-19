@@ -7,7 +7,7 @@ import Heading from '../component/Heading'
 
 const Banner = ({id}) => {
   return (
-    <section id={id} className='group relative  p-[100px]'>
+    <section id={id} className='group relative  p-[100px] container'>
       <Container>
 
 
