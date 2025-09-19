@@ -65,7 +65,7 @@ import Html from '../assets/html .png'
 import Css from '../assets/css.webp'
 import JavaScript from '../assets/javaScript.png'
 import Tailwind from '../assets/tailwind.PNG'
-import Reak from '../assets/react.PNG'
+import Reak from '../assets/react.png'
 import Flex from '../component/Flex'
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'
 
