@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../component/Heading'
-import Box from '../component/box'
+import Box from '../component/Box'
 const Services = ({id}) => {
   return (
     <div id={id}>
