@@ -15,6 +15,7 @@ const Navber = () => {
       <Container>
 
         <Flex className='justify-between pl-[40px] pr-[40px] items-center'>
+          
           <a href="#banner"><Navberlist text='Home' /></a>
           <a href="#about"><Navberlist text='About' /></a>
           <a href="#experience"><Navberlist text='Skills' /></a>

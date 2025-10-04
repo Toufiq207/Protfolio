@@ -13,6 +13,7 @@ const Services = ({id}) => {
         <Box text='Front-End Devlopment'/> 
         <Box text='Responsive Desing'/>
         <Box text='Figma to react'/>
+        
        </div>
       
 

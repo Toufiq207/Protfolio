@@ -49,6 +49,8 @@ import Container from '../component/Container'
 import Discription from '../component/Discription'
 
 const About = ({id}) => {
+  
+  
   return (
     <section id={id} className="pb-12">
       <Container>

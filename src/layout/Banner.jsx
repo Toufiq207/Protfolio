@@ -25,7 +25,7 @@ z-10 duration-500 flex flex-col items-center justify-center py-[10px] md:py-[50p
 
           </div>
           <Heading className='!text-white' text='Toufiq Lizon' />
-          <h1 className='text-[40px] text-white font-dm font-normal'>Protfolio Web Developer</h1>
+          <h1 className='text-[40px] text-white font-dm font-normal'>Front-End Web Developer</h1>
           {/* <p className='text-[20px] text-amber-100 font-dm font-normal pb-[20px]'>Passionate about creating beautiful, responsive, and user-friendly web experiences. I specialize in React, JavaScript, and modern web technologies.</p> */}
           {/* <p className="text-base sm:text-lg md:text-xl text-amber-100 font-dm font-normal pb-5 leading-relaxed text-center max-w-3xl mx-auto">
   Passionate about creating beautiful, responsive, and user-friendly web experiences. I specialize in React, JavaScript, and modern web technologies.
