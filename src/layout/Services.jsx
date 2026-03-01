@@ -10,9 +10,9 @@ const Services = ({id}) => {
   
         
        <div className='flex flex-wrap gap-[20px] justify-center'>
-        <Box text='Front-End Devlopment'/> 
-        <Box text='Responsive Desing'/>
-        <Box text='Figma to react'/>
+        <Box text='Web Desing'/> 
+        <Box text='Web Devlopment'/>
+        <Box text='Vedio Editting'/>
         
        </div>
       

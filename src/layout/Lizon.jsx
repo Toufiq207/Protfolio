@@ -5,7 +5,8 @@ const Lizon = () => {
   return (
     <section className='bg-black'>
         <Container>
-            <h1 className='text-amber-50 md:text-lg text-sm   py-2 font-normal font-dm'>Lizon</h1>
+            <h1 className='text-amber-50 md:text-lg text-sm   py-2 font-normal font-dm'>Toufiq Web & Media
+</h1>
         </Container>
     </section>
   )

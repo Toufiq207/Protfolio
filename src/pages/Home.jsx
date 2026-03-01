@@ -9,6 +9,7 @@ import Contact from '../layout/Contact'
 import Project from '../layout/Project'
 import Services from '../layout/Services'
 import Container from '../component/Container'
+import AnalogClock from './AnalogClock'
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
    <Container>
      <div>
       <Banner id="banner" />
+      <AnalogClock/>
       <About id="about" />
       <Expreance id="experience" />
       <Project id="projects" />

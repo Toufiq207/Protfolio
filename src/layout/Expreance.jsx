@@ -68,7 +68,10 @@ import Tailwind from '../assets/tailwind.PNG'
 import Reak from '../assets/react.png'
 import Flex from '../component/Flex'
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'
-
+import Firebase from '../assets/firebase.png'
+import Nodjs from '../assets/nodejs.png'
+import Expressjs from '../assets/exp.png'
+import Mongodb from '../assets/mongodb.png'
 const Expreance = ({id}) => {
   const [show, setShow] = useState(false)
 
@@ -77,7 +80,7 @@ const Expreance = ({id}) => {
   return (
     <section id={id} className="py-12">
       <Container>
-        <Heading text="Skills" className="mb-4 text-center" />
+        <Heading text="Using Technology" className="mb-4 text-center" />
 
         <div
           onClick={handleShow}
@@ -98,6 +101,10 @@ const Expreance = ({id}) => {
             <SkillsComp className="w-[85%] sm:w-10/12" text="85%" img={JavaScript} />
             <SkillsComp className="w-[90%] sm:w-10/12" text="85%" img={Reak} />
             <SkillsComp className="w-[80%] sm:w-9/12" text="80%" img={Tailwind} />
+            <SkillsComp className="w-[80%] sm:w-10/12" text="90%" img={Firebase} />
+            <SkillsComp className="w-[80%] sm:w-10/12" text="90%" img={Nodjs} />
+            <SkillsComp className="w-[80%] sm:w-10/12" text="90%" img={Expressjs} />
+            <SkillsComp className="w-[80%] sm:w-10/12" text="90%" img={Mongodb} />
           </Flex>
         )}
       </Container>

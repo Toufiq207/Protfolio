@@ -19,6 +19,7 @@
 
 import React from 'react'
 
+
 const Discription = ({ className, text, para }) => {
   return (
     <div
@@ -37,6 +38,7 @@ const Discription = ({ className, text, para }) => {
       >
         {para}
       </p>
+      
     </div>
   )
 }
