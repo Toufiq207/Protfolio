@@ -5,7 +5,7 @@ const Services = ({id}) => {
   return (
     <div id={id}>
 
-<Heading className='pb-[50px]' text='Services '/>
+<Heading className='pb-[50px] pt-12' text='Services '/>
 
   
         

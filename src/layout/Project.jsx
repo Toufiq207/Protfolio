@@ -3,8 +3,8 @@ import Container from '../component/Container'
 import Flex from '../component/Flex'
 import ProjectComponent from '../component/ProjectComponent'
 import Heading from '../component/Heading'
-import Oribi from '../assets/oribi.PNG'
-import Innovat from '../assets/innovat.PNG'
+import project from '../project'
+
 
 const Project = ({id}) => {
   return (
@@ -13,16 +13,18 @@ const Project = ({id}) => {
         <Heading className="pb-6" text="Projects" />
 
         <Flex className="flex-wrap justify-center gap-x-6 gap-y-12 ">
-          <ProjectComponent
-            img={Oribi}
-            text="Oribi (Ecommerce Website)"
-            web="https://eccomarce.vercel.app/"
-          />
-          <ProjectComponent
-            img={Innovat}
-            text="Innovat"
-            web="https://innovet.vercel.app/"
-          />
+
+{
+  project.map((item) => (
+    <ProjectComponent
+      key={item.id}
+      img={item.img}
+      text={item.name}
+      web={item.link}
+    />
+  ))
+}
+       
         </Flex>
       </Container>
     </section>

@@ -15,7 +15,7 @@ const ProjectComponent = ({img,text,web}) => {
 <p className='text-[20px] text-black font-dm font-bold pb-[20px] pt-4'>{text}</p>
     </div>
      <div className='z-10 w-[300px] h-[200px]  bg-[#4f4f5480] absolute hover:bg-transparent duration-500 flex items-center justify-center'>
-   <a href={web} target='blank'> <Button text='view'/></a>
+   <a href={web} target="blank"> <Button text='view'/></a>
      </div>
     </Flex>
     

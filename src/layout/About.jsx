@@ -86,7 +86,7 @@ const About = ({id}) => {
           className="mb-6"
         />
         <Image  className='w-full mb-2' src={Daffodil}/>
-        <Discription text="Location" para="Dhaka, Bangladesh" className="mb-6" />
+        <Discription text="Location" para="Barguna, Bangladesh" className="mb-6" />
         <iframe className='w-full h-[300px] mb-2' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.8470528273074!2d90.1074093295246!3d22.16321237161023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30aa999c769d1e1f%3A0x955bd9771fc8268f!2sBarguna!5e1!3m2!1sen!2sbd!4v1772360527976!5m2!1sen!2sbd" ></iframe>
         <Discription text="Languages" para="Bengali, English" />
       </Container>
